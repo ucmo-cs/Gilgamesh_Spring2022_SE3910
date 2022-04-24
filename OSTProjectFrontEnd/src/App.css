@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  position: absolute;
+  height: 50vmin;
+  top: 10px;
+  left: auto;
+  pointer-events: none;
+}
+
+.App-header {
+    background-color: rgba(36, 90, 36, 0.432);
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #001c8a;
+}
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+ }
+.footer {
+  background-color: rgba(36, 90, 36, 0.432);
+  border-top:2px solid rgb(0, 0, 0);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: rgb(65, 51, 51);
+  font-size: 25px;
+  text-align: center
+ } 
+
+ 
+body {
+  margin: 0;
+  padding: 0;
+  height:1000px;
+ }
+ div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+body {
+    border: 1px dotted black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    padding-bottom: 2.5rem;
+}  
+
+.one {
+    flex-basis: 33.33%;
+}
+
+.two {
+    flex-basis: 25%;
+}
+
+.three {
+    flex-basis: 42.66%;
+}
+
+.colorApprove {
+    color: #16ab3f;
+}
+
+.colorDeny {
+    color: #a31414;
+    margin-left: 10px;
+}
+
+.textFormat {
+    margin-left: 40px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+.iframeclass{
+    width: 800px;
+    min-height: 750px;
+}
+.logout{
+    opacity: 100;
+}

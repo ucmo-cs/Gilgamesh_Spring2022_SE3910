@@ -1,0 +1,27 @@
+.text-container{
+  font-size: 250px;
+  font: sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  opacity: 15%;
+}
+  form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#table
+{
+  width: 500px;
+  right: 500px;
+  
+}
+#button
+{
+  display: flex;
+  justify-content: flex-end;
+  right: 500px;
+}

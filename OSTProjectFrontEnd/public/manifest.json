@@ -1,0 +1,15 @@
+{
+  "short_name": "Open Source Tracking", //Name of Project
+  "name": "OST Manifest",
+  "icons": [
+    {
+      "src": "cbanklogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#fff000"
+}

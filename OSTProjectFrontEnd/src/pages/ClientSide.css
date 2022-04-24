@@ -1,0 +1,15 @@
+.text-container{
+    font-size: 250px;
+    font: sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    opacity: 15%;
+  }
+  #table
+{
+  width: 1000px;
+  height: 500px;
+  right: 50%;
+  left: 50%;
+}
